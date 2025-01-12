@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+    } else {
+    document.getElementById("navbar").style.top = "-100%";
+    }
+    prevScrollpos = currentScrollPos;
+}
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="navbar">
+        <a id="hem"href="index.html">Hem</a>
+        <a id="kontakt"href="mailto:buissness@midgardsystems.se">Mejl</a>
+        <a id="omoss"href="omoss.html">Om oss</a>
+    </div>
+
+    <div class="container">
+    <div class="HEADLINE">
+    <div class="text-effect-wrapper">
+    <h1 class="TITLE">Midgard Systems</h1>
+    </div>
+    <div class="TAGLINE">
+            <span style="--i:1">D</span>
+            <span style="--i:2">I</span>
+            <span style="--i:3">N</span>
+            <span class="empty"style="--i:4">0</span>
+            <span style="--i:5">L</span>
+            <span style="--i:6">Ö</span>
+            <span style="--i:7">S</span>
+            <span style="--i:8">N</span>
+            <span style="--i:9">I</span>
+            <span style="--i:10">N</span>
+            <span style="--i:11">G</span>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <a href="#down" class='button' style="margin:0px auto;">⌄</a>   
+
+    <div class="otherContent">
+
+    <div id="down">
+    </div>
+    <div class="beskrivning">
+        <h3>Vad vi gör</h3>
+        <img src="https://placehold.co/600x400" alt="Placeholder Picture">
+        <h3>Vi hos Midgard Systems UF arbetar med Mjukvara, Appar och Webbsidor!</h3><h3> Vi gör allt för att se till att det vi arbetar med uppnår den högsta möjliga kvalitén.</h3>
+    </div>
+    </div>
+    <footer>
+        <p>Midgard Systems UF</p>
+        <p><a href="mailto:buissness@midgardsystems.se">placeholder@placeholder.com</a></p>
+    </footer> 
+</body>
+</html>
